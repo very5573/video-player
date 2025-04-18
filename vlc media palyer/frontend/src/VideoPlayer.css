@@ -1,0 +1,27 @@
+.video-player {
+  padding: 20px;
+  font-family: sans-serif;
+}
+.video-container video {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0003;
+}
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+input[type="range"] {
+  flex: 1;
+}
+.video-list div {
+  cursor: pointer;
+  padding: 8px;
+  background: #eee;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.video-list div:hover {
+  background: #ddd;
+}
